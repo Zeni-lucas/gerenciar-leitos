@@ -1,14 +1,14 @@
 # Diferenças entre QA (Quality Assurance) e Analista de Testes
 
 ## QA:
-1 -  O QA é o cara responsavel por garantir a qualidade do processo de desenvolvimento do software como um todo. ele foca na implementaçao de praticas, metodologias e ferramentas que previnam defeitos no produto final. 
+1 -  O QA é a pessoa responsavel por garantir a qualidade do processo de desenvolvimento do software como um todo. ele foca na implementaçao de praticas, metodologias e ferramentas que previnam defeitos no produto final. 
 ### Funçoes do QA:?
-- cara responsável por implementar praticas de qualidade ao longo de todas as etapas de desenvolvimento do software. Isso inclui a definiçao de metodologias como Scrum, Kanban, Waterfall, e garantir que a equipe siga essas metodologias.
-- o cara que em uma sprint agil pode revisar se as praticas de desenvolvimento como testes unitarios e revisão de codigo estão sendo seguidas
+- pessoa responsável por implementar praticas de qualidade ao longo de todas as etapas de desenvolvimento do software. Isso inclui a definiçao de metodologias como Scrum, Kanban, Waterfall, e garantir que a equipe siga essas metodologias.
+- a pessoa que em uma sprint agil pode revisar se as praticas de desenvolvimento como testes unitarios e revisão de codigo estão sendo seguidas
 - Outra função do QA é identificar áreas para melhorar a eficiencia e eficacia dos processos de desenvolvimento
 
 ## Analista de testes:
-1 - Cara focado na execução e definição dos testes do software, ele verifica e valida se o produto final cumpre os requisitos especificados e se FUNCIONA CORRETAMENTE, literalmente sua função é buscar defeitos no software, ele lida com,  a parte tecnica da execução dos testes sejam manuais ou automatizados.
+1 - pessoa focado na execução e definição dos testes do software, ele verifica e valida se o produto final cumpre os requisitos especificados e se FUNCIONA CORRETAMENTE, literalmente sua função é buscar defeitos no software, ele lida com,  a parte tecnica da execução dos testes sejam manuais ou automatizados.
 - Uma função importante do analista é documentar e reportar defeitos encontrados durante os testes, ele usa ferramentas como JIRA OU TESTLINK para descrever o comportamento e encaminhas os defeitos para correção
 - um EXEMPLO se o sistema apresentar um erro ao processar pagamentos online, o analista documenta o bug, descreve o cenário que ocorreu e envia para a equipe de desenvolvedores
 
@@ -27,5 +27,5 @@ durante o desenvolvimento ele executa os testes tanto manuais ou automatizados c
 Ao detectar um bug o analista de testes registra o erro com DETALHES, tipo as etapas para reproduzir o erro, screenshots do erro e prioriza esse bug para ser corrigido antes do lançamento
 
 ## breve resumo:
-o QA é o cara q foca em garantir a qualidade do PROCESSO de desenvolvimento como um tudo, trabalhando para prevenir defeitos e melhorar eficiencia do ciclo de vida do software
+o QA é a pessoa q foca em garantir a qualidade do PROCESSO de desenvolvimento como um tudo, trabalhando para prevenir defeitos e melhorar eficiencia do ciclo de vida do software
 o Analista de teste foca diretamente no PRODUTO, executando testes para garantir que ele atendas aos requisitos funcionais e não funcionais e reportando os bugs para serem corrigidos
