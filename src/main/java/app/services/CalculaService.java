@@ -2,6 +2,7 @@ package app.services;
 
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -49,5 +50,20 @@ public class CalculaService {
             }
         }
         return menor;
+    }
+
+    public List<Integer> encontrarNumerosRepetidos(List<Integer> numeros) {
+        List<Integer> repetidos = new ArrayList<>();
+        List<Integer> jaVistos = new ArrayList<>();
+
+        for (Integer numero : numeros) {
+            if (jaVistos.contains(numero) && !repetidos.contains(numero)) {
+                repetidos.add(numero);
+            } else {
+                jaVistos.add(numero);
+            }
+        }
+
+        return repetidos;
     }
 }

@@ -47,4 +47,13 @@ public class CalculaServiceTest {
         int menor = calculaService.encontrarMenor(numeros);
         assertEquals(2, menor);
     }
+
+    @Test
+    @DisplayName("TesteNumerosRepetidos")
+    void cenario05() {
+        List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 2, 3, 4, 4);
+        List<Integer> repetidos = calculaService.encontrarNumerosRepetidos(numeros);
+        List<Integer> esperado = Arrays.asList(2, 3, 4);
+        assertEquals(esperado, repetidos);
+    }
 }
